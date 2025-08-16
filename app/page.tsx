@@ -209,7 +209,7 @@ export default function HomePage() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="space-y-6">
+                <div className="space-y-7">
                   <div className="flex items-center justify-between">
                     <h3 className="font-serif font-bold text-2xl text-gray-900">Sohun Dua Udang Biru | 300 Gram</h3>
                     {/*<Badge className="bg-blue-100 text-blue-800 hover:bg-blue-100">Premium</Badge>*/}
@@ -562,9 +562,9 @@ export default function HomePage() {
           </div>
 
           <div className="max-w-5xl mx-auto">
-            <div className="grid md:grid-cols-6 gap-6 items-center">
+            <div className="grid md:grid-cols-5 gap-6 items-center">
               {/* Step 1 */}
-              <div className="text-center space-y-4">
+              <div className="text-center space-y-0.5">
                 <div className="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto shadow-xl">
                   <MessageCircle className="w-12 h-12 text-white" />
                 </div>
@@ -598,7 +598,7 @@ export default function HomePage() {
               </div>
 
               {/* Step 3 */}
-              <div className="text-center space-y-4">
+              <div className="text-center space-y-1.5">
                 <div className="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center mx-auto shadow-xl">
                   <span className="text-white font-bold text-3xl">💰</span>
                 </div>
@@ -607,15 +607,15 @@ export default function HomePage() {
               </div>
 
               {/* Enhanced Arrow */}
-              <div className="hidden md:flex justify-center items-center">
+              {/* <div className="hidden md:flex justify-center items-center">
                 <div className="flex items-center">
                   <div className="w-12 h-1 bg-cyan-600 rounded"></div>
                   <div className="w-0 h-0 border-l-8 border-l-cyan-600 border-t-4 border-t-transparent border-b-4 border-b-transparent ml-1"></div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Step 1 */}
-              <div className="text-center space-y-4">
+              <div className="text-center space-y-2 ">
                 <div className="w-24 h-24 bg-purple-600 rounded-full flex items-center justify-center mx-auto shadow-xl">
                   <span className="text-white font-bold text-3xl">💳</span>
                 </div>
@@ -649,7 +649,7 @@ export default function HomePage() {
               </div>
 
               {/* Step 3 */}
-              <div className="text-center space-y-4">
+              <div className="text-center space-y-2">
                 <div className="w-24 h-24 bg-green-700 rounded-full flex items-center justify-center mx-auto shadow-xl">
                   <span className="text-white font-bold text-3xl">✅</span>
                 </div>
